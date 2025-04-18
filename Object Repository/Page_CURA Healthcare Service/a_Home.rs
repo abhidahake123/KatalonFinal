@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>cbb81d7e-61f2-4d92-a147-6588ed0d9703</webElementGuid>
+      <webElementGuid>519c6117-a701-4971-b88f-aa0536c9e847</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>href</name>
       <type>Main</type>
       <value>./</value>
-      <webElementGuid>e068f59f-a9aa-4e6e-9207-8b91becfd6bf</webElementGuid>
+      <webElementGuid>64b2f47d-abe3-4f75-b447-6c1580246b64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>onclick</name>
       <type>Main</type>
       <value>$('#menu-close').click();</value>
-      <webElementGuid>5055dd52-e4fa-4f84-8c9f-4d1157e1d463</webElementGuid>
+      <webElementGuid>79c06f77-3a4c-419d-88ab-96a19e92d8f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Home</value>
-      <webElementGuid>e8568861-3708-40bb-acfc-4409574d9215</webElementGuid>
+      <webElementGuid>79e23b5c-7844-4dee-9136-72c5be99de4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebar-wrapper&quot;)/ul[@class=&quot;sidebar-nav&quot;]/li[2]/a[1]</value>
-      <webElementGuid>9c41840b-6522-449b-a73d-38f806c0a468</webElementGuid>
+      <webElementGuid>f261e5f1-1651-435e-a03c-8b5551880044</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//a[@onclick=&quot;$('#menu-close').click();&quot;])[2]</value>
-      <webElementGuid>d81722ba-15dc-488b-b8bb-3d96c98a1a23</webElementGuid>
+      <webElementGuid>bf854a27-9e46-4422-b0ec-a2d36e7ac0e0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='sidebar-wrapper']/ul/li[2]/a</value>
-      <webElementGuid>ce72d38f-c36a-4446-8d6b-41a3d96538ba</webElementGuid>
+      <webElementGuid>a2f026f0-f208-437f-8741-c1238c24eca9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Home')]</value>
-      <webElementGuid>79f2f162-06bc-4f72-9fe1-789dbb5f45c3</webElementGuid>
+      <webElementGuid>248e4d0c-c71f-4dfc-a386-8449eee3fad5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,55 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare'])[1]/following::a[1]</value>
-      <webElementGuid>cf16eb11-2ad9-4dce-90c9-2c779763555b</webElementGuid>
+      <webElementGuid>e9091807-d9f1-4017-a0f5-ac2fc3f8b7d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='History'])[1]/preceding::a[1]</value>
+      <webElementGuid>bf05931a-b60f-4cdd-94d9-b63897d2acc4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::a[2]</value>
+      <webElementGuid>7bb214db-4e06-44e4-9f7b-b4d963862848</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
+      <webElementGuid>3fef3af1-9e70-4cef-86c6-aa41e87c4500</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, './')])[2]</value>
+      <webElementGuid>7ec68016-b09b-4e16-b5d7-7bf2e1afb732</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/a</value>
+      <webElementGuid>6cf50b16-5e16-45ed-8c53-7e4818514d6b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = './' and (text() = 'Home' or . = 'Home')]</value>
+      <webElementGuid>ed9a1cbe-54e1-4e76-8928-c53222d4938d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,37 +158,5 @@
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='CURA Healthcare Service'])[2]/preceding::a[2]</value>
       <webElementGuid>3bb09d4d-d805-4912-959d-93d5b112ba85</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
-      <webElementGuid>43d983d2-f32d-492d-84b7-ba3781342e4a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:href</name>
-      <type>Main</type>
-      <value>(//a[contains(@href, './')])[2]</value>
-      <webElementGuid>cd374068-85af-4daa-b806-cc86125dc408</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//li[2]/a</value>
-      <webElementGuid>69413ddb-e2c5-4251-86d0-26e8552b10e2</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//a[@href = './' and (text() = 'Home' or . = 'Home')]</value>
-      <webElementGuid>842c9ed9-cdc1-4d09-82ce-4d37b4209e4e</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

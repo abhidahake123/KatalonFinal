@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>span_Visit Date (Required)_glyphicon glyphi_cada34</name>
+   <name>span_Demo account_glyphicon glyphicon-user</name>
    <tag></tag>
-   <elementGuidId>b0660b99-e1d0-4491-b302-b6f789a1da84</elementGuidId>
+   <elementGuidId>17bc2acf-7a15-4283-a6e2-aa6e13502c4e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
+         <value>//span[@id='demo_username_label']/span</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>span.glyphicon.glyphicon-calendar</value>
+         <value>span.glyphicon.glyphicon-user</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorCollection>
       <entry>
          <key>SMART_LOCATOR</key>
-         <value>span</value>
+         <value>#demo_username_label span</value>
       </entry>
    </smartLocatorCollection>
    <smartLocatorEnabled>false</smartLocatorEnabled>
@@ -29,38 +29,46 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>83b15bd0-f30e-4028-970b-3eb5a1a19455</webElementGuid>
+      <webElementGuid>7a8d2f72-52a2-4fcd-8536-52732688adc4</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>glyphicon glyphicon-calendar</value>
-      <webElementGuid>57047795-65a3-4f92-ae21-7be849a71629</webElementGuid>
+      <value>glyphicon glyphicon-user</value>
+      <webElementGuid>fa48e37b-fb1b-4932-bdf8-dc81490c17b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>aria-hidden</name>
+      <type>Main</type>
+      <value>true</value>
+      <webElementGuid>395ef1c1-ef68-4f5a-8bba-a07d72e33e30</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;appointment&quot;)/div[@class=&quot;container&quot;]/div[@class=&quot;row&quot;]/form[@class=&quot;form-horizontal&quot;]/div[@class=&quot;form-group&quot;]/div[@class=&quot;col-sm-4&quot;]/div[@class=&quot;input-group date&quot;]/div[@class=&quot;input-group-addon&quot;]/span[@class=&quot;glyphicon glyphicon-calendar&quot;]</value>
-      <webElementGuid>db50c7b8-d5dc-43eb-8f4b-c9fba54fd424</webElementGuid>
+      <value>id(&quot;demo_username_label&quot;)/span[@class=&quot;glyphicon glyphicon-user&quot;]</value>
+      <webElementGuid>83b26188-eae5-4c27-8ade-6aa6b84bf807</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//section[@id='appointment']/div/div/form/div[4]/div/div/div/span</value>
-      <webElementGuid>ce8714ad-16e6-43d5-a71e-2ada1ca897cd</webElementGuid>
+      <value>//span[@id='demo_username_label']/span</value>
+      <webElementGuid>15b10fd4-7468-4b15-ad92-3c6ff1a97688</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//span</value>
-      <webElementGuid>a8b956c5-2480-4bb6-af68-5cca996a2cc2</webElementGuid>
+      <value>//span/span</value>
+      <webElementGuid>d1275152-eb97-43cb-81c7-ec69a6a4dd48</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

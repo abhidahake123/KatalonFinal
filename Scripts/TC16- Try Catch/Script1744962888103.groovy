@@ -33,13 +33,11 @@ try {
 catch (Exception e) {
     WebUI.comment('Login failed: ' + e.message)
 } 
+finally { 
+    WebUI.comment('End of test')
 
- finally {
-    WebUI.comment("End of test")
     WebUI.closeBrowser()
 }
 
-
-
-
+WebUI.closeBrowser()
 

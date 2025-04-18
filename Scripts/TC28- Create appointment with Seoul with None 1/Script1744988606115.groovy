@@ -23,33 +23,40 @@ WebUI.navigateToUrl('https://katalon-demo-cura.herokuapp.com/')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/a_Make Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/label_Demo account'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Demo account_col-sm-8'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'), 'ThisIsNotAPassword')
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Demo account_form-group'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Demo account_demo_password_label'))
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
 
+WebUI.doubleClick(findTestObject('Object Repository/Page_CURA Healthcare Service/h2_Make Appointment'))
+
+WebUI.selectOptionByValue(findTestObject('Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'), 
+    'Seoul CURA Healthcare Center', true)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input_None_programs'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_24'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_24'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_23'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Tokyo CURA Healthcare Center'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_None'))
+WebUI.doubleClick(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
 
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_24042025'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_No'))
+
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_23042025'))
 
 WebUI.closeBrowser()
 

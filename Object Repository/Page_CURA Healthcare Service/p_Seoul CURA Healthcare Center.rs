@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>p</value>
-      <webElementGuid>bda2dabc-4e6d-4d0f-bcdf-5ea9fef0091c</webElementGuid>
+      <webElementGuid>631884e0-19c0-4007-a4c5-cf098a1774ba</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -37,7 +37,7 @@
       <name>id</name>
       <type>Main</type>
       <value>facility</value>
-      <webElementGuid>f218bc8e-7929-4ac1-9351-e68fa140d964</webElementGuid>
+      <webElementGuid>1d672897-5618-420e-84a4-3642f183709f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Seoul CURA Healthcare Center</value>
-      <webElementGuid>405d466c-f518-4184-bd1c-fe324b0ecd33</webElementGuid>
+      <webElementGuid>59929f9f-b867-4972-bf4e-6cca0534aff8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;facility&quot;)</value>
-      <webElementGuid>c20bbba2-157c-45c7-b126-f64ca1f992d1</webElementGuid>
+      <webElementGuid>b37ed962-2e74-4b18-b9c2-2b3f954311d1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//p[@id='facility']</value>
-      <webElementGuid>fd3288db-733e-4586-be7b-c1b400ab448a</webElementGuid>
+      <webElementGuid>ce391259-92b9-41ab-8415-26c70f890035</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//section[@id='summary']/div/div/div[2]/div[2]/p</value>
-      <webElementGuid>39d5a315-d7fc-4951-829e-0b9b8866b4ca</webElementGuid>
+      <webElementGuid>2d63918c-afd4-4568-baa1-f94e23ea23a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Facility'])[1]/following::p[1]</value>
-      <webElementGuid>8c446d06-28cc-4859-a36d-c9fe96318e22</webElementGuid>
+      <webElementGuid>a7a27b20-246f-490a-bc0f-90f9c6ed61de</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Appointment Confirmation'])[1]/following::p[2]</value>
-      <webElementGuid>aab70fe3-613a-4448-8341-b596cc698181</webElementGuid>
+      <webElementGuid>1cac16a9-d1f2-4084-8473-6b8fd22ea097</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Apply for hospital readmission'])[1]/preceding::p[1]</value>
-      <webElementGuid>da91576a-49f6-4c90-8800-f452e2dcd4b3</webElementGuid>
+      <webElementGuid>dd28cd34-3d96-4aa9-ae51-0c75b8994881</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Healthcare Program'])[1]/preceding::p[2]</value>
-      <webElementGuid>5c862004-4a93-4503-aeae-871357f1d585</webElementGuid>
+      <webElementGuid>662553de-d08e-4202-b53e-525fd604f42c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Seoul CURA Healthcare Center']/parent::*</value>
-      <webElementGuid>460eae43-5e54-47d9-bc8d-7c6967d0c773</webElementGuid>
+      <webElementGuid>1acad6bd-f0ae-4da8-a872-cabd6def6393</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/p</value>
-      <webElementGuid>e09f9379-bc72-4268-b1f2-95f4dec46f4d</webElementGuid>
+      <webElementGuid>16d5c162-db5c-43c3-b48b-f95ba59faabe</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +125,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//p[@id = 'facility' and (text() = 'Seoul CURA Healthcare Center' or . = 'Seoul CURA Healthcare Center')]</value>
-      <webElementGuid>43159743-91ca-4e84-b5e9-029e28dd45a9</webElementGuid>
+      <webElementGuid>cad2a037-f797-4ada-a0dd-1f2614e6cd24</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
