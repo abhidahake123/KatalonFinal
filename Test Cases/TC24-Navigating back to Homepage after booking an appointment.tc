@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC24-Navigating back to Homepage after booking an appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ffb3c42c-a687-414e-bc75-bb6849187f21</testCaseGuid>
+</TestCaseEntity>

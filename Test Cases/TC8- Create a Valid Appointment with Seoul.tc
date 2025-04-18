@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC8- Create a Valid Appointment with Seoul</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>652b3f24-393e-4170-82c5-50979cd65ec7</testCaseGuid>
+</TestCaseEntity>

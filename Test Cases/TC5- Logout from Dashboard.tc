@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC5- Logout from Dashboard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>db5ce4aa-a4b5-4076-8c15-1f03cf8ff5f1</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC7- Create a Valid Appointment with Hongkong</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a372b0e2-10a5-4b6d-a74e-37de4928b390</testCaseGuid>
+</TestCaseEntity>

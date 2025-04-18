@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC11- Create Valid Appointment with Hospital Readmission</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>47fed8c4-0ceb-467c-a595-50fbd4e4dbdb</testCaseGuid>
+</TestCaseEntity>

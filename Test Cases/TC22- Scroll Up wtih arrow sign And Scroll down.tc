@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC22- Scroll Up wtih arrow sign And Scroll down</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a6197d6-c1c6-46e7-bf41-376d32aeea01</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC9- Create Valid Appointment with Medicaid HCP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e731fbb8-f074-4aa6-934e-0fd20d98c1e2</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC10- Create Valid Appointment with None HCP</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50c6711f-2266-4bff-a4e9-d964457bab6c</testCaseGuid>
+</TestCaseEntity>
