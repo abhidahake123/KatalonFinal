@@ -31,6 +31,11 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/butto
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_Visit Date (Required)_input-group-addon'))
 
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Test1')

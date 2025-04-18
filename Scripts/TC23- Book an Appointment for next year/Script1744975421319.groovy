@@ -57,6 +57,11 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/th__1
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/th__1_2_3_4_5_6_7_8_9_10_11'))
 
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa')

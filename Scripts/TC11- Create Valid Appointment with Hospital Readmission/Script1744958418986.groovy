@@ -33,6 +33,11 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
+
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
+
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
+
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'))
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'), 'Test6')
