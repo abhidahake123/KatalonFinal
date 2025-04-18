@@ -27,10 +27,6 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/div_D
 
 WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Username_username'), 'John Doe')
 
-WebUI.setText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Demo account_form-control'), 'ThisIsNotAPassword')
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Demo account_demo_password_label'))
-
 WebUI.setEncryptedText(findTestObject('Object Repository/Page_CURA Healthcare Service/input_Password_password'), 'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM')
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Login'))
@@ -44,18 +40,13 @@ WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/input
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34'))
 
+WebUI.waitForElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
 
-WebUI.waitForElementVisible(findTestObject('Object Repository/Page_CURA Healthcare Service/td_23'), 10)
+WebUI.waitForElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'), 10)
 
-WebUI.waitForElementClickable(findTestObject('Object Repository/Page_CURA Healthcare Service/td_23'), 10)
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_23'))
+WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/td_30'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/button_Book Appointment'))
-
-WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
-
-WebUI.doubleClick(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
 
 WebUI.click(findTestObject('Object Repository/Page_CURA Healthcare Service/p_Seoul CURA Healthcare Center'))
 
